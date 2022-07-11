@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "aws-cdk-lib": "^2.0.0",
+    "aws-sdk": "^2.1027.0",
+    "constructs": "^10.0.0"
+  },
+  "scripts": {
+    "deploy": "cd client && npm run build && cd .. && cdk deploy --all",
+    "destroy": "cdk destroy --all"
+  }
+}

@@ -1,0 +1,58 @@
+.navigation {
+  background-color: #005eb8;
+  display: flex;
+}
+
+.navigation-container {
+  align-items: center;
+  background-color: #005eb8;
+  color: #ffffff;
+  display: flex;
+  flex: 0 1 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: min(100vw, 960px);
+}
+
+.navigation-links {
+  display: flex;
+  font-size: 18px;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .navigation-links {
+    display: none !important;
+  }
+}
+
+.navigation-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+}
+
+.nhs-logo {
+  height: 50px;
+}
+
+.surgery-name {
+  color: inherit;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: auto;
+  padding: 0 0 0 0;
+  text-decoration: none;
+}
+
+.surgery-name:hover {
+  text-decoration: underline;
+}
