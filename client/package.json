@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -54,5 +54,8 @@
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^10.3.0"
   }
 }

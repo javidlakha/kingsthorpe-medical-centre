@@ -7,8 +7,8 @@ export function Footer() {
     <div className="footer-container">
       <div className="footer">
         <ul className="footer-links">
-          <li>{ADDRESS.join(", ")}</li>
-          <li>
+          <li className="practice-address">{ADDRESS.join(", ")}</li>
+          <li className="opening-hours">
             Opening hours: {OPENING_HOURS}, except on&nbsp;
             <Link to={PAGES.openingHours}>practice training days</Link>
           </li>
