@@ -8,7 +8,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    width: min(100vw, 960px);
+    width: min(100%, 960px);
 }
 
 .content a {
@@ -40,7 +40,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: min(100vw, 960px);
+    width: min(100%, 960px);
 }
 
 .notice-container {
