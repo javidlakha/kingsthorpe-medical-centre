@@ -5,7 +5,7 @@
     "constructs": "^10.0.0"
   },
   "scripts": {
-    "deploy": "cd client && npm run build && cd .. && cdk deploy --all",
-    "destroy": "cdk destroy --all"
+    "deploy": "cd client && npm run build && cd .. && cdk deploy --all --profile kmc --require-approval never",
+    "destroy": "cdk destroy --all --profile kmc"
   }
 }
