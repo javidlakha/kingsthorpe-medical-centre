@@ -10,6 +10,7 @@ import { Chaperones } from "./pages/Chaperones";
 import { Complaints } from "./pages/Complaints";
 import { ContactDetails } from "./pages/ContactDetails";
 import { HomeVisits } from "./pages/HomeVisits";
+import { OnlineAppointments } from "./pages/OnlineAppointments";
 import { OpeningHours } from "./pages/OpeningHours";
 import { OutOfHours } from "./pages/OutOfHours";
 import { Prescriptions } from "./pages/Prescriptions";
@@ -45,6 +46,7 @@ function App() {
           <Route path={PAGES.complaints} element={<Complaints />} />
           <Route path={PAGES.contactDetails} element={<ContactDetails />} />
           <Route path={PAGES.homeVisits} element={<HomeVisits />} />
+          <Route path={PAGES.onlineAppointments} element={<OnlineAppointments />} />
           <Route path={PAGES.openingHours} element={<OpeningHours />} />
           <Route path={PAGES.outOfHours} element={<OutOfHours />} />
           <Route path={PAGES.prescriptions} element={<Prescriptions />} />

@@ -55,6 +55,9 @@ export function Home() {
               <Link to={PAGES.homeVisits}>Home visits</Link>
             </li>
             <li>
+              <Link to={PAGES.onlineAppointments}>Online appointments</Link>
+            </li>
+            <li>
               <Link to={PAGES.outOfHours}>Out of hours cover</Link>
             </li>
             <li>

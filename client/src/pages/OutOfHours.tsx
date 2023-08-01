@@ -27,12 +27,16 @@ export function OutOfHours() {
               rel="noreferrer"
               target="_blank"
             >
-              Northampton GP Extended Access Service
+              Northampton GP Enhanced Access Service
             </a>
-            . To book an appointment, please contact the practice on {TELEPHONE}{" "}
-            during our opening hours ({OPENING_HOURS}). Please note that though
-            you will be seen by an experienced local GP or nurse, it is unlikely
-            to be your own.
+            . This service is based at Highfield House, next to Northampton
+            General Hospital.
+          </p>
+          <p>
+            To book an appointment, please contact the practice on{" "}
+            {TELEPHONE}{" "} during our opening hours ({OPENING_HOURS}).
+            Please note that although you will be seen by an experienced
+            local GP or nurse, it is unlikely to be your own.
           </p>
         </div>
       </div>
