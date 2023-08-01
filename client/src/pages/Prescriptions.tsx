@@ -40,13 +40,6 @@ export function Prescriptions() {
       </div>
       <div className="content-container">
         <div className="content">
-          <div className="content-title">Telephone</div>
-          <p>{TELEPHONE}</p>
-          <p>Please try to call after {CALL_AFTER_APPOINTMENTS} if possible.</p>
-        </div>
-      </div>
-      <div className="content-container">
-        <div className="content">
           <div className="content-title">E-mail</div>
           <p>{EMAIL_REPEAT_PRESCRIPTIONS}</p>
           <p>Please use the subject 'Repeat Prescriptions'.</p>
