@@ -6,13 +6,6 @@ import "../style/page.css";
 export function Home() {
   return (
     <>
-      <div className="notice-container">
-        <div className="notice">
-          If you or anyone you have been in contact with is exhibiting
-          coronavirus symptoms, please do not come to the surgery. Instead,
-          please book an online appointment. Thank you for your understanding.
-        </div>
-      </div>
       <div className="content-container">
         <div className="content">
           <div className="content-title">Medical services</div>
