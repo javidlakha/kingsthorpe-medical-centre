@@ -29,6 +29,7 @@ export const PAGES = {
   contactDetails: "/contact-details",
   complaints: "/complaints",
   homeVisits: "/home-visits",
+  onlineAppointments: "/online-appointments",
   openingHours: "/opening-hours",
   outOfHours: "/out-of-hours",
   prescriptions: "/prescriptions",
@@ -40,15 +41,14 @@ export const PAGES = {
 };
 
 export const PRACTICE_TRAINING_DAYS = [
-  "2023-01-25",
-  "2023-02-22",
-  "2023-03-22",
-  "2023-04-19",
-  "2023-05-17",
   "2023-06-21",
   "2023-07-19",
   "2023-08-16",
   "2023-09-20",
+  "2023-10-18",
+  "2023-11-15",
+  "2023-12-13",
+  "2024-01-17",
 ];
 
 export const TELEPHONE = <a href="tel:+441604713823">01604 713823</a>;
