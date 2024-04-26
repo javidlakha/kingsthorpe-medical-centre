@@ -55,6 +55,9 @@ export function Home() {
               <Link to={PAGES.homeVisits}>Home visits</Link>
             </li>
             <li>
+              <Link to={PAGES.nhsApp}>NHS app</Link>
+            </li>
+            <li>
               <Link to={PAGES.onlineAppointments}>Online appointments</Link>
             </li>
             <li>
@@ -105,9 +108,12 @@ export function Home() {
         <div className="content">
           <div className="content-title">Notices</div>
           <p>
-            To protect our patients and our staff, all persons who enter the
-            building are required to wear a mask, unless they have a medical
-            exemption.
+            We are now part of the MWEB Primary Care Network, alongside Moulton
+            Surgery, Woodview Medical Centre, Earls Barton Surgery and Penvale
+            Surgery. The primary care network staff who work with us has
+            changed, but we are still providing the same services as before.
+            If you have any questions about this, please speak to the Practice
+            Manager.
           </p>
         </div>
       </div>
