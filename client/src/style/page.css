@@ -55,3 +55,8 @@
 .page-title {
     font-size: 32px;
 }
+
+.video-container {
+    border: 0;
+    max-width: 100%;
+}

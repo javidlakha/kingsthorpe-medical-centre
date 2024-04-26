@@ -10,6 +10,7 @@ import { Chaperones } from "./pages/Chaperones";
 import { Complaints } from "./pages/Complaints";
 import { ContactDetails } from "./pages/ContactDetails";
 import { HomeVisits } from "./pages/HomeVisits";
+import { NHSApp } from "./pages/NHSApp";
 import { OnlineAppointments } from "./pages/OnlineAppointments";
 import { OpeningHours } from "./pages/OpeningHours";
 import { OutOfHours } from "./pages/OutOfHours";
@@ -46,6 +47,7 @@ function App() {
           <Route path={PAGES.complaints} element={<Complaints />} />
           <Route path={PAGES.contactDetails} element={<ContactDetails />} />
           <Route path={PAGES.homeVisits} element={<HomeVisits />} />
+          <Route path={PAGES.nhsApp} element={<NHSApp />} />
           <Route path={PAGES.onlineAppointments} element={<OnlineAppointments />} />
           <Route path={PAGES.openingHours} element={<OpeningHours />} />
           <Route path={PAGES.outOfHours} element={<OutOfHours />} />
@@ -85,6 +87,10 @@ function App() {
           <Route
             path="home-visits.html"
             element={<Navigate to={PAGES.homeVisits} />}
+          />
+          <Route
+            path="nhs-app.html"
+            element={<Navigate to={PAGES.nhsApp} />}
           />
           <Route
             path="out-of-hours.html"

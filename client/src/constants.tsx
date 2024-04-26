@@ -32,6 +32,7 @@ export const PAGES = {
   onlineAppointments: "/online-appointments",
   openingHours: "/opening-hours",
   outOfHours: "/out-of-hours",
+  nhsApp: "/nhs-app",
   prescriptions: "/prescriptions",
   register: "/register",
   regulatoryNotices: "/regulatory-notices",
