@@ -9,39 +9,14 @@ export function Register() {
         <div className="content">
           <div className="page-title">Register at this practice</div>
           <p>
-            To register at this practice, please fill out both the NHS'{" "}
+            To register at this practice, please fill out{" "}
             <a
-              href={
-                process.env.PUBLIC_URL +
-                "/GMS1-family-doctor-services-registration-form.pdf"
-              }
+              href="https://gp-registration.nhs.uk/K83035"
               rel="noreferrer"
               target="_blank"
             >
-              family doctor services registration (GMS1)
-            </a>{" "}
-            and the practice's{" "}
-            <a
-              href={
-                process.env.PUBLIC_URL + "/new-patient-registration-form.pdf"
-              }
-              rel="noreferrer"
-              target="_blank"
-            >
-              new patient registration form
+              this form
             </a>.
-          </p>
-          <p>
-            You can either drop these forms off at reception during the
-            practice's <Link to={PAGES.openingHours}>opening hours</Link>, or
-            post them to
-          </p>
-          <p>
-            {["Patient Registration", ...ADDRESS].map((fragment) => (
-              <>
-                {fragment} <br />
-              </>
-            ))}
           </p>
           <p>
             We will then be in touch to confirm your registration and arrange
